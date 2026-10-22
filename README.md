@@ -14,7 +14,7 @@
 ## 使うもの
 | 項目 | 値 |
 |---|---|
-| Salesforce組織 | `onsite2026-Z` |
+| Salesforce組織 | `onsite2026-D` |
 | リポジトリ | `https://github.com/t-noguchi-bf/OnSiteD` |
 
 Git・Salesforce CLI・GitHubの操作は、すべてClaude Codeが行います。

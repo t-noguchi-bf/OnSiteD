@@ -13,7 +13,7 @@
 ## 環境
 | 項目 | 値 |
 |---|---|
-| Salesforce組織 | 別名 `onsite2026-Z` |
+| Salesforce組織 | 別名 `onsite2026-D` |
 | SFDXプロジェクト | リポジトリの直下（メタデータは `force-app/`） |
 | 設計書 | `docs/項目定義書.xlsx` |
 | リポジトリ | `https://github.com/t-noguchi-bf/OnSiteD`（ブランチ `main`、パブリック） |
