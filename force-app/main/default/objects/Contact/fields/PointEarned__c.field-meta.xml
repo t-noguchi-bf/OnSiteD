@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PointEarned__c</fullName>
+    <label>付与ポイント合計</label>
+    <type>Summary</type>
+    <summaryForeignKey>PointHistory__c.Contact__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <summarizedField>PointHistory__c.Points__c</summarizedField>
+    <summaryFilterItems>
+        <field>PointHistory__c.Type__c</field>
+        <operation>equals</operation>
+        <value>付与</value>
+    </summaryFilterItems>
+</CustomField>
