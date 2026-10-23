@@ -6,6 +6,7 @@
     <fields>LastVisitDate__c</fields>
     <fields>TotalVisitCount__c</fields>
     <fields>FavoriteBeans__c</fields>
+    <fields>OnlineSubscription__c</fields>
     <fields>PointBalance__c</fields>
     <fields>Phone</fields>
     <label>お客様サマリー</label>
