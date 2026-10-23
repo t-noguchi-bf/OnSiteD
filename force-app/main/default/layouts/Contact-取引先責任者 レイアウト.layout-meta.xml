@@ -8,8 +8,8 @@
         <label>Contact Information</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>OwnerId</field>
+                <behavior>Readonly</behavior>
+                <field>CustomerRank__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
@@ -22,6 +22,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Title</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>OwnerId</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -50,10 +54,6 @@
         <editHeading>true</editHeading>
         <label>来店・ポイント</label>
         <layoutColumns>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>CustomerRank__c</field>
-            </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>TotalVisitCount__c</field>
