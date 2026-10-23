@@ -271,6 +271,17 @@
     </relatedContent>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Content__c</fields>
+        <fields>Status__c</fields>
+        <fields>IssueDate__c</fields>
+        <fields>ExpirationDate__c</fields>
+        <fields>UsedDate__c</fields>
+        <relatedList>Coupon__c.Contact__c</relatedList>
+        <sortField>IssueDate__c</sortField>
+        <sortOrder>Desc</sortOrder>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
         <fields>TransactionDate__c</fields>
         <fields>Store__c</fields>
         <fields>Product__c</fields>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>お客様に発行したクーポン。有効期限は発行日から30日、1回限り使用できる</description>
+    <enableActivities>true</enableActivities>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <label>クーポン</label>
+    <nameField>
+        <displayFormat>CP-{00000}</displayFormat>
+        <label>クーポン番号</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>クーポン</pluralLabel>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

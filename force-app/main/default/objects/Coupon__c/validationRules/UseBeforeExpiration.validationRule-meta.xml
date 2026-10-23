@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UseBeforeExpiration</fullName>
+    <active>true</active>
+    <errorConditionFormula>UsedDate__c &gt; ExpirationDate__c</errorConditionFormula>
+    <errorDisplayField>UsedDate__c</errorDisplayField>
+    <errorMessage>有効期限を過ぎたクーポンは使えません</errorMessage>
+</ValidationRule>

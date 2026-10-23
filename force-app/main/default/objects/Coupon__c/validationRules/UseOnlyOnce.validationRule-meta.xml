@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UseOnlyOnce</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISCHANGED(UsedDate__c), NOT(ISBLANK(PRIORVALUE(UsedDate__c))))</errorConditionFormula>
+    <errorDisplayField>UsedDate__c</errorDisplayField>
+    <errorMessage>このクーポンは使用済みです（1回限り）</errorMessage>
+</ValidationRule>
