@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllStoresCorporate</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Store__c</columns>
+    <columns>SalesRep__c</columns>
+    <columns>DealType__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>LastContactDate__c</columns>
+    <columns>OPPORTUNITY.NEXT_STEP</columns>
+    <columns>OtherStoreAlert__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>全店舗の法人商談</label>
+</ListView>

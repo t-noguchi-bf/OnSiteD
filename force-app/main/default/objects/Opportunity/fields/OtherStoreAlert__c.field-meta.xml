@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OtherStoreAlert__c</fullName>
+    <label>担当店舗の確認</label>
+    <type>Text</type>
+    <formula>IF(ISBLANK(TEXT(Account.ResponsibleStore__c)), &quot;担当店舗が未設定です&quot;,
+IF(TEXT(Store__c) &lt;&gt; TEXT(Account.ResponsibleStore__c), &quot;⚠ この会社は&quot; &amp; TEXT(Account.ResponsibleStore__c) &amp; &quot;の担当です。営業前に相談してください&quot;, &quot;OK&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+</CustomField>
