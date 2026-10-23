@@ -37,7 +37,7 @@
                 <field>Type__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>Points__c</field>
             </layoutItems>
             <layoutItems>

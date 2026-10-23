@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Points__c</fullName>
     <label>ポイント数</label>
+    <inlineHelpText>購入（付与）のときは購入金額100円につき1ポイントを自動計算。利用のときは使ったポイント数を入力</inlineHelpText>
     <type>Number</type>
     <precision>8</precision>
     <scale>0</scale>

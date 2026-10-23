@@ -241,6 +241,9 @@
     </layoutSections>
     <quickActionList>
         <quickActionListItems>
+            <quickActionName>Contact.RecordPurchase</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
             <quickActionName>FeedItem.TextPost</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
