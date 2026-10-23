@@ -4,7 +4,7 @@
     <label>お客様</label>
     <type>MasterDetail</type>
     <referenceTo>Contact</referenceTo>
-    <relationshipLabel>ポイント履歴</relationshipLabel>
+    <relationshipLabel>購入・ポイント履歴</relationshipLabel>
     <relationshipName>PointHistories</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>

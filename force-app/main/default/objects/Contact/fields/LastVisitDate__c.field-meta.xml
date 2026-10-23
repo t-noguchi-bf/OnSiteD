@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LastVisitDate__c</fullName>
+    <label>最終来店日</label>
+    <type>Summary</type>
+    <summaryForeignKey>PointHistory__c.Contact__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <summarizedField>PointHistory__c.TransactionDate__c</summarizedField>
+    <summaryFilterItems>
+        <field>PointHistory__c.Type__c</field>
+        <operation>equals</operation>
+        <value>付与</value>
+    </summaryFilterItems>
+</CustomField>
