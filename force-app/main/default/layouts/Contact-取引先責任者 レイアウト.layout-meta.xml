@@ -92,6 +92,10 @@
                 <behavior>Readonly</behavior>
                 <field>DaysSinceLastVisit__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>LastWinbackCouponDate__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>

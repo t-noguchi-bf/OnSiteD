@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LastWinbackCouponDate__c</fullName>
+    <label>休眠クーポン発行日</label>
+    <inlineHelpText>60日以上来店のないお客様に、10%オフクーポンを自動発行した日。同じ休眠期間に二重発行しないために使う</inlineHelpText>
+    <type>Date</type>
+    <required>false</required>
+</CustomField>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>WinbackCouponIssuer</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <description>三日月珈琲のスタッフが使う項目・オブジェクトの権限</description>
     <fieldPermissions>
         <editable>true</editable>
@@ -34,6 +38,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.DaysSinceLastVisit__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.LastWinbackCouponDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
