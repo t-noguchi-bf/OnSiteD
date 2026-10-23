@@ -2,8 +2,9 @@
 <CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>CustomerSummary</fullName>
     <fields>Name</fields>
+    <fields>CustomerRank__c</fields>
     <fields>LastVisitDate__c</fields>
-    <fields>PurchaseCount__c</fields>
+    <fields>TotalVisitCount__c</fields>
     <fields>FavoriteBeans__c</fields>
     <fields>PointBalance__c</fields>
     <fields>Phone</fields>

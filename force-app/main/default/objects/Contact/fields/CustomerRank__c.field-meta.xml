@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CustomerRank__c</fullName>
+    <label>お客様ランク</label>
+    <inlineHelpText>常連：累計来店5回以上かつ60日以内に来店。休眠：60日以上来店なし</inlineHelpText>
+    <type>Text</type>
+    <formula>IF(ISBLANK(LastVisitDate__c), &quot;新規（購入履歴なし）&quot;,
+IF(TODAY() - LastVisitDate__c &gt;= 60, &quot;休眠（60日以上来店なし）&quot;,
+IF(BLANKVALUE(PreviousVisitCount__c, 0) + BLANKVALUE(PurchaseCount__c, 0) &gt;= 5, &quot;★常連&quot;, &quot;一般&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+</CustomField>

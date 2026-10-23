@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreviousVisitCount__c</fullName>
+    <label>移行前の来店回数</label>
+    <inlineHelpText>Salesforce導入前に各店舗の台帳・スタンプカードで数えていた来店回数</inlineHelpText>
+    <type>Number</type>
+    <precision>5</precision>
+    <scale>0</scale>
+    <required>false</required>
+</CustomField>
