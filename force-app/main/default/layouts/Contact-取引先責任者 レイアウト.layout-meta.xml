@@ -313,12 +313,12 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Points__c</fields>
+        <fields>Type__c</fields>
         <fields>TransactionDate__c</fields>
         <fields>Store__c</fields>
         <fields>Product__c</fields>
         <fields>Size__c</fields>
-        <fields>Type__c</fields>
-        <fields>Points__c</fields>
         <fields>PurchaseAmount__c</fields>
         <relatedList>PointHistory__c.Contact__c</relatedList>
         <sortField>TransactionDate__c</sortField>
